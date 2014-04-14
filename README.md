@@ -1,3 +1,6 @@
+Find Zabbix unsupported items and unknown triggers
+====================
+
 This script and template allow to receive detailed notifications about items in not supported state and triggers in unknown state in Zabbix.
 
 
