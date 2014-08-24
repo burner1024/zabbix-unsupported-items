@@ -16,7 +16,7 @@ Tested and works on Zabbix 2.0, Postgresql 9.2. Will not work on Mysql without h
 
 
 ###Example notification
-(You have to include item.lastvalue in alert body, as desribed later):
+(You have to include item.lastvalue in alert body, as desribed later)
 
 ```
 Zabbix triggers in unknown state found: PROBLEM
