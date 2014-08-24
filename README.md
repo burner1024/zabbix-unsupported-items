@@ -1,4 +1,4 @@
-Receive alerts on Zabbix unsupported items and unknown triggers (pre Zabbix 2.2)
+##Receive alerts on Zabbix unsupported items and unknown triggers (pre Zabbix 2.2)
 ====================
 
 This script and template allow to receive detailed notifications about items in unsupported state and triggers in unknown state in Zabbix.
@@ -7,7 +7,7 @@ This is only needed for Zabbix up to 2.0. Zabbix 2.2 includes similar functional
 
 Tested and works on Zabbix 2.0, Postgresql 9.2. Will not work on Mysql without hacking.
 
-Installation:
+###Installation:
 
 1. Create zabbix-api user in Zabbix web interface
 2. Put the script in /etc/zabbix/externalscripts
@@ -15,7 +15,8 @@ Installation:
 4. Import the template, assign in to your Zabbix server host.
 
 
-Example notification (you have to include item.lastvalue in alert body, as desribed later):
+###Example notification
+(You have to include item.lastvalue in alert body, as desribed later):
 
 ```
 Zabbix triggers in unknown state found: PROBLEM
